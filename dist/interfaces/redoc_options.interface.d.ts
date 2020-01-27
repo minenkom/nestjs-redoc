@@ -1,5 +1,7 @@
 export interface RedocOptions {
     title?: string;
+    externalCSS?: string;
+    favicon?: string;
     logo?: LogoOptions;
     theme?: any;
     untrustedSpec?: boolean;

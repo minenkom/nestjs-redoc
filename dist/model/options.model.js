@@ -5,6 +5,10 @@ exports.schema = (document) => Joi.object().keys({
     title: Joi.string()
         .optional()
         .default(document.info ? document.info.title : 'Swagger documentation'),
+    externalCSS: Joi.string()
+        .optional(),
+    favicon: Joi.string()
+        .optional(),
     logo: {
         url: Joi.string()
             .optional()
