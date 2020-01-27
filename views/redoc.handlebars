@@ -12,11 +12,11 @@
       padding: 0;
     }
   </style>
-  {{#if data.externalCSS}}
-    <link href="{{ data.externalCSS }}" rel="stylesheet">
+  {{#if data.options.externalCSS}}
+    <link href="{{ data.options.externalCSS }}" rel="stylesheet">
   {{/if}}
-  {{#if data.favicon}}
-    <link rel="shortcut icon" type="image/x-icon" href="{{ data.favicon }}" />
+  {{#if data.options.favicon}}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ data.options.favicon }}" />
   {{/if}}
 </head>
 
