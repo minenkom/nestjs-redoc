@@ -1,6 +1,10 @@
 export interface RedocOptions {
   /** Web site title (e.g: ReDoc documentation) */
   title?: string;
+  /** External CSS url */
+  externalCSS?: string;
+  /** Favicon url */
+  favicon?: string;
   /** Logo Options */
   logo?: LogoOptions;
   /** Theme options */
